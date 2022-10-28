@@ -31,6 +31,9 @@ public:
 	//overload di divisione
 	Rational operator / (Rational const& obj);
 
+	//oveload operatore =
+	Rational& operator = (Rational const& obj);
+
 	//overload operatore di equality
 	bool operator == (Rational const& obj);
 

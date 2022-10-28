@@ -101,6 +101,13 @@ Rational Rational::operator/(Rational const& obj) {
 
 }
 
+Rational& Rational::operator=(Rational const& obj) {
+	num = obj.num;
+	den = obj.den;
+
+	return *this;
+}
+
 bool Rational::operator==(Rational const& obj) {
 	
 	//faccio un controllo se i due numeri sono uguali

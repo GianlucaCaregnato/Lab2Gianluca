@@ -1,5 +1,4 @@
 #include <iostream>
-#include <String>
 
 #include "Rational.h"
 
@@ -45,5 +44,10 @@ int main() {
 	else
 		std::cout << "a != b ho sbgliato qualcosa :)";
 
+
+	Rational e = a;
+
+
+	std::cout << e << " :mi aspetto che il risultato sia 5/2" << "\n";
 
 }
